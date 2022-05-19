@@ -670,6 +670,12 @@ img {
   }
 }
 
+.quote__inner {
+  background-image: url("../../images/quote-before.svg"), url("../../images/quote-after.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 450px) calc(50% - 170px), calc(50% + 450px) calc(50% - 110px);
+}
+
 .quote__line {
   display: block;
   margin: 0 auto;
@@ -698,5 +704,18 @@ img {
 .quote__bottom {
   padding-bottom: 191px;
   text-align: center;
+}
+
+.services__inner {
+  text-align: center;
+}
+
+.services__title {
+  margin: 0;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: #333;
 }
 /*# sourceMappingURL=main.css.map */
