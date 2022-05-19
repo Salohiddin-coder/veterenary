@@ -1,0 +1,74 @@
+.site-main {
+  background-image: url("../../images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.hero {
+  background-image: url("../../images/hero-bg-left.png");
+  background-position: calc(50% - 490px) calc(50% - 100px);
+  background-repeat: no-repeat;
+  background-size: 730px 710px;
+}
+
+.hero__inner {
+  display: flex;
+}
+
+.hero__left {
+  display: flex;
+  margin-left: auto;
+  padding-right: 77px;
+  flex-direction: column;
+  padding: 153px 0;
+  width: 685px;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 29px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333;
+}
+
+.hero__blue-text {
+  color: #78C0DE;
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 38px;
+  width: 495px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+
+.hero__link {
+  display: inline-block;
+  padding: 15px 48px 16px 47px;
+  width: 181px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  text-decoration: none;
+}
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  .hero {
+    background-image: url("../../images/hero-bg-left@2x.png");
+    background-image: url("../images/after-bgimg-top@2x.png");
+  }
+} 
