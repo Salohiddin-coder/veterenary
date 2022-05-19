@@ -1,0 +1,48 @@
+.course__inner {
+  position: relative;
+  margin-bottom: 216px;
+  padding: 120px 0px 120px 287px;
+  height: 308px;
+  background-image: url("../../images/course-bgimg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  &::after {
+    position: absolute;
+    top: -108px;
+    right: 45px;
+    display: inline-block;
+    width: 613px;
+    height: 481px;
+    background-image: url("../../images/dog.png");
+    content: '';
+  }
+}
+
+.course__title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.course__input {
+  margin-right: 21px;
+  padding: 18px 147px 12px 22px;
+  background-color: #fff;
+  border-radius: 5px;
+  outline: transparent;
+  border: 1px solid transparent;
+}
+
+.course__button {
+  padding: 15px 53px 14px 51px;
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #333;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}

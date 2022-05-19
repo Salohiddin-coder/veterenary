@@ -12,7 +12,7 @@
   <header class="site-header">
     <div class="container">
       <div class="site-header__top">
-        <adress class="site-header__adress">г. Мариуполь, проспект Победы, 48а</adress>
+        <address class="site-header__address">г. Мариуполь, проспект Победы, 48а</address>
 
         <div class="site-header__tells">
           <a class="site-header__tell" href="tel:+0676347574">(067) 634 -75 - 74</a>
@@ -81,6 +81,147 @@
       <div class="container">
         <div class="services__inner">
           <h2 class="services__title">Наши услуги</h2>
+
+          <div class="services__content">
+            <button class="services__button"></button>
+
+            <ul class="services__list">
+              <li class="services__item">
+                <img class="services__pic" 
+                src="./images/doctor.png" width="54" height="77"
+                srcset="./images/doctor.png 1x, ./images/doctor@2x.png 2x" 
+                alt="a doctor is holding an instrument">
+                <strong class="services__info">Первичный осмотр</strong>
+              </li>
+              <li class="services__item">
+                <img class="services__pic" 
+                src="./images/nurse.png" width="52" height="77"
+                srcset="./images/nurse.png 1x, ./images/nurse@2x.png 2x" 
+                alt="a nurse is holding a dog">
+                <strong class="services__info">Первичный осмотр</strong>
+              </li>
+              <li class="services__item">
+                <img class="services__pic" 
+                src="./images/xirurrgiya.png" width="72" height="77"
+                srcset="./images/xirurrgiya.png 1x, ./images/xirurrgiya@2x.png 2x" 
+                alt="a dog is sitting by something">
+                <strong class="services__info">Хирургическое вмешательство</strong>
+              </li>
+              <li class="services__item">
+                <img class="services__pic" 
+                src="./images/dermatologiya.png" width="76" height="76"
+                srcset="./images/dermatologiya.png 1x, ./images/dermatologiya@2x.png 2x" 
+                alt="a scope is indicates dog's tail">
+                <strong class="services__info">Дерматология</strong>
+              </li>
+              <li class="services__item">
+                <img class="services__pic" 
+                src="./images/laboratory.png" width="52" height="77"
+                srcset="./images/laboratory.png 1x, ./images/laboratory@2x.png 2x" 
+                alt="a microscope">
+                <strong class="services__info">Лабораторная диагностика</strong>
+              </li>
+              <li class="services__item">
+                <img class="services__pic" 
+                src="./images/oftalmologiya.png" width="76" height="76"
+                srcset="./images/oftalmologiya.png 1x, ./images/oftalmologiya@2x.png 2x" 
+                alt="two dogs are staring at something">
+                <strong class="services__info">Офтальмология</strong>
+              </li>
+            </ul>
+
+            <button class="services__button-opposite"></button>
+          </div>
+
+          <div class="exam">
+            <img class="exam__img" src="./images/cat.png"
+            srcset="./images/cat.png 1x, ./images/cat@2x.png 2x" alt="a cat is looking at a hand"
+            width="590" height="332">
+
+            <div class="exam__content">
+              <h3 class="exam__title">Первичный осмотр</h3>
+
+              <p class="exam__text">По условиям акции в нашей клинике предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше время. Вы имеете возможность оставить у нас.</p>
+              <p class="exam__text-copy">По условиям акции в нашей клинике предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше время. Вы имеете возможность оставить у нас.</p>
+
+              <a class="exam__link" href="#">Узнать цену</a>  <a class="exam__link-same" href="#">Записаться на приём</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="course">
+      <div class="course-container">
+        <div class="course__inner">
+          <h2 class="course__title">Будь в курсе событий</h2>
+
+          <form action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off" >
+            <input type="email" class="course__input" name="user_email" id="user-email" placeholder="Укажите Ваш email адрес"  required>
+
+            <button class="course__button" type="submit">Подписаться</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="statements">
+      <div class="container">
+        <div class="statements__inner">
+          <h2 class="statements__title">Полезные статьи</h2>
+
+          <ul class="statements__list">
+            <li class="statements__item">
+              <img class="statements__pic" src="./images/kitten.png" srcset="./images/kitten.png 1x, ./images/kitten@2x.png 2x" alt="a cat is opening it's mouth big" width="305" height="180">
+              
+              <div class="statements__elements">
+                <time class="statements__date" datetime="2020-08-28">28.08.2020</time>
+                <h3 class="statements__text">Ультразвуковая <br> чистка зубов</h3>
+                <p class="statements__info">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
+                <a class="statements__link" href="#">Читать больше</a>
+              </div>
+            </li>
+
+            <li class="statements__item-big">
+              <img class="statements__pic" src="./images/dog-cat.png" srcset="./images/dog-cat.png 1x, ./images/dog-cat@2x.png 2x" alt="two dogs are running together" width="305" height="435">
+
+              <div class="statements__items">
+                <a class="statements__links" href="#">#собака</a>
+                <a class="statements__links" href="#">#дом</a>
+                <a class="statements__links-margin" href="#">#уход</a>
+                <time datetime="2020-08-29">29.09.2020</time>
+
+                <h3 class="statements__texts">Перед тем как завести собаку</h3>
+
+                <p class="statements__infos">
+                  Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И первым вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в доме котенка приятное и радосное событие.
+                </p>
+                <a class="statements__link" href="#">Читать больше</a>
+              </div>
+            </li>
+
+            <li class="statements__item">
+              <img class="statements__pic" src="./images/puppy.png" srcset="./images/puppy.png 1x, ./images/puppy@2x.png 2x" alt="a doctor is injecting a puppy" width="305" height="180">
+              
+              <div class="statements__elements">
+                <time class="statements__date" datetime="2020-07-21">21.07.2020</time>
+                <h3 class="statements__text">Когда привавать питомца?</h3>
+                <p class="statements__info">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
+                <a class="statements__link" href="#">Читать больше</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="contacts__inner">
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/10366/mariupol/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Mariupol</a><a href="https://yandex.com/maps/geo/mariupol/1445984355/?ll=37.543425%2C47.117882&utm_medium=mapframe&utm_source=maps&z=13.35" style="color:#eee;font-size:12px;position:absolute;top:14px;">Мariupol — Yandex Maps</a><iframe src="https://yandex.com/map-widget/v1/-/CCUF7WsfcD" width="462" height="652" allowfullscreen="true" style="position:relative;"></iframe></div>
+
+        <div class="contacts__content">
+          
         </div>
       </div>
     </section>
