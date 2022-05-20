@@ -57,6 +57,14 @@
   color: #fff;
   background-color: #333;
   text-decoration: none;
+
+  &:hover {
+    background-color: #333333cc;
+  }
+
+  &:active {
+    background-color: #33333399;
+  }
 }
 
 

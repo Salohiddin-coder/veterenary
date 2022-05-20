@@ -47,6 +47,14 @@
   line-height: 18px;
   color: #333;
   text-decoration: none;
+
+  &:hover {
+    color: #FFBD54;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .site-header__dot {
@@ -95,6 +103,14 @@
 .site-header__logo-link {
   position: absolute;
   top: 27px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .site-menu {
@@ -143,9 +159,32 @@
 }
 
 .site-menu__link {
+  position: relative;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
   color: #333;
-  text-decoration: none;
+  text-decoration: none;  
+
+  &::before {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    z-index: -1;
+    background-color: #F4FFAD;
+    transition: all 0.3s ease;
+    content: '';
+  }
+
+  &:hover::before {
+    height: 30%;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
