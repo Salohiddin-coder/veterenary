@@ -134,9 +134,25 @@
           </div>
 
           <div class="exam">
-            <img class="exam__img" src="./images/cat.png"
-            srcset="./images/cat.png 1x, ./images/cat@2x.png 2x" alt="a cat is looking at a hand"
-            width="590" height="332">
+            <picture>
+              <!-- WEBP -->
+              <source 
+                type="image/webp"
+                srcset="
+                  ./images/cat.webp     1x,
+                  ./images/cat@2x.webp  2x
+                "
+              />
+
+              <img
+                class="exam__img"
+                src="./images/cat.png"
+                srcset="./images/cat.png 1x, ./images/cat@2x.png 2x"
+                alt="a cat is looking at a hand"
+                width="590"
+                height="332"
+              >
+            </picture>
 
             <div class="exam__content">
               <h3 class="exam__title">Первичный осмотр</h3>
@@ -173,7 +189,25 @@
 
           <ul class="statements__list">
             <li class="statements__item">
-              <img class="statements__pic" src="./images/kitten.png" srcset="./images/kitten.png 1x, ./images/kitten@2x.png 2x" alt="a cat is opening it's mouth big" width="305" height="180">
+              <picture>
+                <!-- WEBP -->
+                <source 
+                  type="image/webp"
+                  srcset="
+                    ./images/kitten.webp     1x,
+                    ./images/kitten@2x.webp  2x
+                  "
+                />
+  
+                <img
+                  class="statements__pic"
+                  src="./images/kitten.png"
+                  srcset="./images/kitten.png 1x, ./images/kitten@2x.png 2x"
+                  alt="a cat is opening it's mouth big"
+                  width="305"
+                  height="180"
+                >
+              </picture>
               
               <div class="statements__elements">
                 <time class="statements__date" datetime="2020-08-28">28.08.2020</time>
@@ -184,7 +218,25 @@
             </li>
 
             <li class="statements__item-big">
-              <img class="statements__pic" src="./images/dog-cat.png" srcset="./images/dog-cat.png 1x, ./images/dog-cat@2x.png 2x" alt="two dogs are running together" width="305" height="435">
+              <picture>
+                <!-- WEBP -->
+                <source 
+                  type="image/webp"
+                  srcset="
+                    ./images/dog-cat.webp     1x,
+                    ./images/dog-cat@2x.webp  2x
+                  "
+                />
+  
+                <img
+                  class="statements__pic"
+                  src="./images/dog-cat.png"
+                  srcset="./images/dog-cat.png 1x, ./images/dog-cat@2x.png 2x"
+                  alt="two dogs are running together"
+                  width="305"
+                  height="435"
+                >
+              </picture>
 
               <div class="statements__items">
                 <a class="statements__links" href="#">#собака</a>
@@ -201,8 +253,26 @@
               </div>
             </li>
 
-            <li class="statements__item">
-              <img class="statements__pic" src="./images/puppy.png" srcset="./images/puppy.png 1x, ./images/puppy@2x.png 2x" alt="a doctor is injecting a puppy" width="305" height="180">
+            <li class="statements__item">              
+              <picture>
+                <!-- WEBP -->
+                <source 
+                  type="image/webp"
+                  srcset="
+                    ./images/puppy.webp     1x,
+                    ./images/puppy@2x.webp  2x
+                  "
+                />
+  
+                <img
+                  class="statements__pic"
+                  src="./images/puppy.png"
+                  srcset="./images/puppy.png 1x, ./images/puppy@2x.png 2x"
+                  alt="a doctor is injecting a puppy"
+                  width="305"
+                  height="180"
+                >
+              </picture>
               
               <div class="statements__elements">
                 <time class="statements__date" datetime="2020-07-21">21.07.2020</time>
@@ -219,7 +289,7 @@
     <section class="contacts">
       <div class="contacts-container">
         <div class="contacts__inner">
-          <div style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/10366/mariupol/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Mariupol</a><a href="https://yandex.com/maps/geo/mariupol/1445984355/?ll=37.543425%2C47.117882&utm_medium=mapframe&utm_source=maps&z=13.35" style="color:#eee;font-size:12px;position:absolute;top:14px;">Мariupol — Yandex Maps</a><iframe src="https://yandex.com/map-widget/v1/-/CCUF7WsfcD" width="462" height="652" allowfullscreen="true" style="position:relative;"></iframe></div>
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/10366/mariupol/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Mariupol</a><a href="https://yandex.com/maps/geo/mariupol/1445984355/?ll=37.543425%2C47.117882&utm_medium=mapframe&utm_source=maps&z=13.35" style="color:#eee;font-size:12px;position:absolute;top:14px;">Мariupol — Yandex Maps</a><iframe src="https://yandex.com/map-widget/v1/-/CCUF7WsfcD" width="462" height="652" style="position:relative;"></iframe></div>
   
           <div class="contacts__content">
             <h2 class="contacts__title">Обратная связь</h2>
@@ -229,7 +299,7 @@
               <input type="text" class="contacts__input" name="user_name" id="user-name" placeholder="Ваше имя" 
               aria-label="write your name" required>
 
-              <input type="email" class="contacts__email" name="user_email" id="user-email" placeholder="Email для обратной связи" aria-label="Write your Email"  required>
+              <input type="email" class="contacts__email" name="user_email" placeholder="Email для обратной связи" aria-label="Write your Email"  required>
 
               <textarea class="contacts__textarea" name="user_message" aria-label="Write your questions" placeholder="Опишите Ваш вопрос." cols="30" rows="10"></textarea>
               <button class="contacts__button" type="submit">Задать нам вопрос</button>
@@ -239,5 +309,49 @@
       </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <a class="site-footer__logo" href="./index.html">
+          <img class="site-footer__logo-img" src="./images/logo-svg.svg" alt="Site logo that indicates V,E,T letters with colorful background">
+        </a>
+
+        <ul class="site-footer__list-left">
+          <li class="site-footer__item-left"><a class="site-footer__link" href="./index.html">Главная</a></li>
+          <li class="site-footer__item-left"><a class="site-footer__link" href="./index.html">О Клинике</a></li>
+          <li class="site-footer__item-left"><a class="site-footer__link" href="./index.html">Наши Услуги</a></li>
+        </ul>
+
+        <ul class="site-footer__list-right">
+          <li class="site-footer__item-right"><a class="site-footer__link" href="./index.html">Полезные Статьи</a></li>
+          <li class="site-footer__item-right"><a class="site-footer__link" href="./index.html">FAQ</a></li>
+          <li class="site-footer__item-right"><a class="site-footer__link" href="./index.html">Контакты</a></li>
+        </ul>
+
+        <ul class="site-footer__date">
+          <li class="site-footer__item"><span class="site-footer__text">Пн - Пт</span> 8:00 - 18:00</li>
+          <li class="site-footer__item"><span class="site-footer__text">Сб - Вс</span> 8:00 - 14:00</li>
+        </ul>
+
+        <ul class="site-footer__last">
+          <li class="site-footer__address"><address>г. Мариуполь,<br> проспект Победы, 48а</address></li>
+          <li class="site-footer__tel">
+            <ul class="tels">
+              <li class="tels__item">
+                <a class="tels__tel" href="tel:+0676347574">(067) 634 -75 - 74</a>
+              </li>
+              <li class="tels__item">
+                <a class="tels__tel" href="tel:+0637570131">(0637) 57 - 01 - 31</a>
+              </li>
+              <li class="tels__item">
+                <a class="tels__tel" href="tel:+0982664389">(098) 266 - 43 - 89</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

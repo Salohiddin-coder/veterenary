@@ -1,0 +1,89 @@
+.site-footer {
+  background-color: #f3f3f3;
+  border-top: 1px solid #EBEBEB;
+}
+
+.site-footer__inner {
+  display: flex;
+  padding: 61px 45px 23px 45px;
+
+  background-image: url("../../images/calendar-svg.svg"), url("../../images/home-svg.svg"), url("../../images/tel-svg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 65px) calc(50% - 22px), calc(50% + 280px) calc(50% - 23px), calc(50% + 475px) calc(50% - 24px);
+  background-size: 17px 17px, 17px 16px, 16px 16px;
+}
+
+.site-footer__logo {
+  margin-right: 67px;
+}
+
+.site-footer__list-left {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-footer__list-right {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-footer__item-left {
+  margin-right: 87px;
+  margin-bottom: 14px;
+}
+
+.site-footer__item-right {
+  margin-right: 157px;
+  margin-bottom: 14px;
+}
+
+.site-footer__link {
+  font-weight: 600;
+  line-height: 21px;
+  color: #333;
+  text-decoration: none;
+}
+
+.site-footer__date {
+  margin: 0;
+  margin-right: 100px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-footer__item {
+  line-height: 21px;
+  font-size: 14px;
+  color: #333;
+}
+
+.site-footer__text {
+  font-weight: 600;
+}
+
+.site-footer__last {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-footer__address {
+  margin-right: 40px;
+  width: 157px;
+}
+
+.tels {
+  margin: 0;
+  padding: 0;
+  width: 113px;
+  list-style-type: none;
+}
+
+.tels__tel {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+}
