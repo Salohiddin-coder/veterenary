@@ -78,6 +78,14 @@
   background-color: #fff;
   border: 1px solid #F3F3F3;
   border-radius: 5px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .services__item:nth-child(1){
