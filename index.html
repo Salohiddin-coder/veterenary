@@ -217,11 +217,24 @@
     </section>
 
     <section class="contacts">
-      <div class="contacts__inner">
-        <div style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/10366/mariupol/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Mariupol</a><a href="https://yandex.com/maps/geo/mariupol/1445984355/?ll=37.543425%2C47.117882&utm_medium=mapframe&utm_source=maps&z=13.35" style="color:#eee;font-size:12px;position:absolute;top:14px;">Мariupol — Yandex Maps</a><iframe src="https://yandex.com/map-widget/v1/-/CCUF7WsfcD" width="462" height="652" allowfullscreen="true" style="position:relative;"></iframe></div>
+      <div class="contacts-container">
+        <div class="contacts__inner">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/10366/mariupol/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Mariupol</a><a href="https://yandex.com/maps/geo/mariupol/1445984355/?ll=37.543425%2C47.117882&utm_medium=mapframe&utm_source=maps&z=13.35" style="color:#eee;font-size:12px;position:absolute;top:14px;">Мariupol — Yandex Maps</a><iframe src="https://yandex.com/map-widget/v1/-/CCUF7WsfcD" width="462" height="652" allowfullscreen="true" style="position:relative;"></iframe></div>
+  
+          <div class="contacts__content">
+            <h2 class="contacts__title">Обратная связь</h2>
+            <p class="contacts__info">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
 
-        <div class="contacts__content">
-          
+            <form action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off" >
+              <input type="text" class="contacts__input" name="user_name" id="user-name" placeholder="Ваше имя" 
+              aria-label="write your name" required>
+
+              <input type="email" class="contacts__email" name="user_email" id="user-email" placeholder="Email для обратной связи" aria-label="Write your Email"  required>
+
+              <textarea class="contacts__textarea" name="user_message" aria-label="Write your questions" placeholder="Опишите Ваш вопрос." cols="30" rows="10"></textarea>
+              <button class="contacts__button" type="submit">Задать нам вопрос</button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
