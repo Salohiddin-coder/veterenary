@@ -57,5 +57,14 @@
   padding: 15px 49px 14px 50px;
   background-color: #FFBD54;
   border: transparent;
+  color: #fff;
+
+  &:hover {
+    background-color: #ffbd54cc;
+  }
+
+  &:active {
+    background-color: #ffbd5499;
+  }
 }
 

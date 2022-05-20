@@ -45,4 +45,12 @@
   border: none;
   border-radius: 3px;
   color: #fff;
+
+  &:hover {
+    background-color: #333333cc;
+  }
+
+  &:active {
+    background-color: #33333399;
+  }
 }

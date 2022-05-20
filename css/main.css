@@ -1044,6 +1044,14 @@ img {
   color: #fff;
 }
 
+.course__button:hover {
+  background-color: #333333cc;
+}
+
+.course__button:active {
+  background-color: #33333399;
+}
+
 .statements__inner {
   margin-bottom: 265px;
 }
@@ -1224,6 +1232,15 @@ img {
   padding: 15px 49px 14px 50px;
   background-color: #FFBD54;
   border: transparent;
+  color: #fff;
+}
+
+.contacts__button:hover {
+  background-color: #ffbd54cc;
+}
+
+.contacts__button:active {
+  background-color: #ffbd5499;
 }
 
 .site-footer {
@@ -1349,5 +1366,13 @@ img {
   color: #333;
   font-size: 14px;
   text-decoration: none;
+}
+
+.tels__tel:hover {
+  color: #FFBD54;
+}
+
+.tels__tel:active {
+  opacity: 0.6;
 }
 /*# sourceMappingURL=main.css.map */
